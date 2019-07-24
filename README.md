@@ -8,9 +8,7 @@ messages to database table "record", which has four columns "id", "offset", "key
 A single java file AivenDemo.java contains all the code. This demo used sample codes from 
 
 the internet, including Aiven's technical support page.
-The demo was tested in Eclipse with JRE 1.8. It requires kafka and PostgreSQL java client 
-
-jars, which are not included in the GitHub repository.
+The demo was tested in Eclipse with JRE 1.8. It requires kafka and PostgreSQL java client jars, which are not included in the GitHub repository.
 For simplicity, credentials of Aiven kafka and postgreSQL cloud environments are hard-coded 
 
 in the code.
