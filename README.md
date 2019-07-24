@@ -1,17 +1,9 @@
 Description:
 ============
-In the demo 10 messages are sent to kafka instance. Consumer receives them and saves 
-
-messages to database table "record", which has four columns "id", "offset", "key" and 
-
-"value".
-A single java file AivenDemo.java contains all the code. This demo used sample codes from 
-
-the internet, including Aiven's technical support page.
+In the demo 10 messages are sent to kafka instance. Consumer receives them and saves messages to database table "record", which has four columns "id", "offset", "key" and "value".
+A single java file AivenDemo.java contains all the code. This demo used sample codes from the internet, including Aiven's technical support page.
 The demo was tested in Eclipse with JRE 1.8. It requires kafka and PostgreSQL java client jars, which are not included in the GitHub repository.
-For simplicity, credentials of Aiven kafka and postgreSQL cloud environments are hard-coded 
-
-in the code.
+For simplicity, credentials of Aiven kafka and postgreSQL cloud environments are hard-coded in the code.
 Complile and run were done in Eclipse IDE.
 
 Worklog
